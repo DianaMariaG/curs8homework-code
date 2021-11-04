@@ -1,4 +1,4 @@
-package ro.fasttrackit.curs8homework.interfaces.food;
+package ro.fasttrackit.curs8homework.food;
 
 public class Kfc implements FoodProvider {
     private McDonalds mcDonalds;

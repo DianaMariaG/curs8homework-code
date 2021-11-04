@@ -1,7 +1,7 @@
 package ro.fasttrackit.curs8homework.problem4;
 
 public class Student {
-    static int SUM = 0;
+    static double SUM = 0;
     static int COUNT = 0;
 
     private String name;
@@ -22,8 +22,8 @@ public class Student {
         return this.grade;
     }
 
-    public static int generalAverage(){
-        int average = SUM/COUNT;
+    public static double generalAverage(){
+        double average = SUM/COUNT;
         return average;
     }
 

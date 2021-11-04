@@ -11,7 +11,7 @@ public class Student {
         this.name = name;
         this.grade = (grade <=10 && grade>0) ? grade : 1;
         COUNT++;
-        SUM = SUM + grade;
+        SUM = SUM + this.grade;
     }
 
     public String getName(){

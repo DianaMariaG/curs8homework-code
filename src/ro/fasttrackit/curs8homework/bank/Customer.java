@@ -9,11 +9,12 @@ public class Customer {
         this.bank = bank;
     }
 
-    public String withdrawMoney(){
-        return "I have withdrawn " + this.bank.withdraw() + " money";
+    public String withdrawMoney(int sum){
+        return this.bank.withdraw(sum);
     }
 
-    public String depositMoney(){
-        return "I have deposited " + this.bank.deposit() + " money";
+    public String depositMoney(int sum){
+        return this.bank.deposit(sum);
+
     }
 }

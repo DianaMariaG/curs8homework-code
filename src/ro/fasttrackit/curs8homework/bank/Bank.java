@@ -1,6 +1,6 @@
 package ro.fasttrackit.curs8homework.bank;
 
 public interface Bank {
-    public int withdraw();
-    public int deposit();
+    public String withdraw(int sum);
+    public String deposit(int sum);
 }

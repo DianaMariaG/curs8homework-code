@@ -8,7 +8,7 @@ public class ING implements Bank {
     public String withdraw(int sum) {
         if (sum <= amount) {
             amount = amount - sum - (sum * COMISION);
-            return "You have withdrawn " + sum + " RON";
+            return "You have withdrawn " + sum + " RON. You still have " + amount + " RON.";
         } else {
             return "You have insufficient funds for this withdrawal!";
         }
@@ -18,6 +18,6 @@ public class ING implements Bank {
     @Override
     public String deposit(int sum) {
         amount = amount + sum + (sum*COMISION);
-        return "You have deposited "  + sum  +  " RON";
+        return "You have deposited "  + sum  +  " RON. You still have " + amount + " RON.";
     }
 }

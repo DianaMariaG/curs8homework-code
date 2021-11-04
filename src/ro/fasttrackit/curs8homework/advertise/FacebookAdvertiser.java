@@ -1,4 +1,4 @@
-package ro.fasttrackit.curs8homework.interfaces.advertise;
+package ro.fasttrackit.curs8homework.advertise;
 
 public class FacebookAdvertiser implements AdvertiseService {
     public FacebookAdvertiser() {

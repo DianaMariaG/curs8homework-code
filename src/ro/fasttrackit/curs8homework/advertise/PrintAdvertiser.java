@@ -5,6 +5,6 @@ public class PrintAdvertiser implements AdvertiseService {
     }
 
     public String advertise() {
-        return "Print this advertisment!";
+        return "Print this advertisement!";
     }
 }
